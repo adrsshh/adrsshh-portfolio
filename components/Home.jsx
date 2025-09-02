@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
  function HandleClick2(){
-  alert("You will be Redirected to My Linkedin Profile⏩⏩")
+  
      window.open('https://www.linkedin.com/in/adharsh-kumar-singh-jeet?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app','noopener','noreferer')
 
  }
@@ -11,15 +11,15 @@ const Home = () => {
      
  }
  function HandleClick3(){
-  alert("Will be Updated Shortly😊")
+  window.open('https://www.instagram.com/adrsshh/')
      
  }
  function HandleClick4(){
-  alert("Will be Updated Shortly😊")
+  window.open('https://github.com/adrsshh')
      
  }
  function HandleClick5(){
-  alert("Will be Updated Shortly😊")
+  window.open('https://mail.google.com/mail/?view=cm&fs=1&to=singh.adarsh2003@gmail.com')
      
  }
 
