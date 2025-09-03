@@ -33,7 +33,7 @@ const Home = () => {
 
   
   return (
-    <div className='h-screen gap-50 w-screen md:flex flex-col md:justify-between ...'>
+    <div className='h-screen w-screen md:flex flex-col md:justify-between ...'>
       <div className='text-amber-50 mx-4 md:mx-10 p-2 mt-10  min-w-fit max-w-full h-fit flex flex-col md:flex-row justify-between items-center '>
         <div className='text-center md:text-left'>
           <h1 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl md:ml-14'>I am</h1>
