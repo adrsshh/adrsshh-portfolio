@@ -33,7 +33,7 @@ const Home = () => {
 
   
   return (
-    <>
+    <div className='h-screen w-screen'>
       <div className='text-amber-50 mx-4 md:mx-10 p-2 mt-10  min-w-fit max-w-full h-fit flex flex-col md:flex-row justify-between items-center '>
         <div className='text-center md:text-left'>
           <h1 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl md:ml-14'>I am</h1>
@@ -61,7 +61,7 @@ const Home = () => {
         <img onClick={HandleClick5} src="/assets/gmail.png" alt="EMAIL" className="hover: transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
 
       </div>
-    </>
+    </div>
   )
 }
 
