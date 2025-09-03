@@ -48,6 +48,7 @@ const Home = () => {
           alt='photo'
         />
       </div>
+    <div>
       <div className='flex justify-center mt-15 md:mt-6'>
             <span className='text-amber-50 text-2xl'>Let's<span className='text-amber-300 text-3xl font-bold'> Connect</span></span>
       </div>
@@ -62,6 +63,7 @@ const Home = () => {
 
       </div>
     </div>
+   </div>
   )
 }
 
