@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
  function HandleClick2(){
-  
+
      window.open('https://www.linkedin.com/in/adharsh-kumar-singh-jeet?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app','noopener','noreferer')
 
  }
@@ -15,11 +15,19 @@ const Home = () => {
      
  }
  function HandleClick4(){
+
+   window.open('https://github.com/adrsshh')
+     
+ }
+ function HandleClick5(){
+   window.open('https://mail.google.com/mail/?view=cm&fs=1&to=singh.adarsh2003@gmail.com')
+
   window.open('https://github.com/adrsshh')
      
  }
  function HandleClick5(){
   window.open('https://mail.google.com/mail/?view=cm&fs=1&to=singh.adarsh2003@gmail.com')
+
      
  }
 
@@ -40,30 +48,17 @@ const Home = () => {
           alt='photo'
         />
       </div>
-
-      <div className='grid grid-cols-5 gap-2 sm:gap-7  text-amber-50 mx-4 md:mx-10 mt-15 md:ml-14'>
-        <button onClick={HandleClick1} className='w-10 hidden sm:inline  sm:w-full border-2 p-3 transition delay-1 duration-200  ease-in-out rounded-3xl border-amber-300 hover:cursor-pointer hover:opacity-25 hover:-translate-y-1 hover:scale-110'>
-          My Resume 
-        </button>
-        <button onClick={HandleClick2}  className='w-10 hidden sm:inline  sm:w-full border-2 p-3 transition delay-1 duration-200  ease-in-out rounded-3xl border-red-600 hover:bg-red-600 hover:cursor-pointer hover:opacity-25 hover:-translate-y-1 hover:scale-110'>
-          My Linkedin
-        </button>
-       <button onClick={HandleClick3}  className='w-10 hidden sm:inline  sm:w-full border-2 p-3 transition delay-1 duration-200  ease-in-out rounded-3xl border-red-600 hover:bg-red-600 hover:cursor-pointer hover:opacity-25 hover:-translate-y-1 hover:scale-110'>
-          My Instagram
-        </button>
-        <button onClick={HandleClick4}  className='w-10 hidden sm:inline sm:w-full  border-2 p-3 transition delay-1 duration-200  ease-in-out rounded-3xl border-red-600 hover:bg-red-600 hover:cursor-pointer hover:opacity-25 hover:-translate-y-1 hover:scale-110'>
-          My Github
-        </button>
-        <button onClick={HandleClick5}  className='w-10 hidden sm:inline  sm:w-full border-2 p-3 transition delay-1 duration-200  ease-in-out rounded-3xl border-red-600 hover:bg-red-600 hover:cursor-pointer hover:opacity-25 hover:-translate-y-1 hover:scale-110'>
-          My Email
-        </button>
+      <div className='flex justify-center mt-15 md:mt-6'>
+            <span className='text-amber-50 text-2xl'>Let's<span className='text-amber-300 text-3xl font-bold'> Connect</span></span>
       </div>
-      <div className="grid grid-cols-5 gap-2 ml-5 mt-0 sm:hidden  ">
-        <img onClick={HandleClick1} src="/assets/cv.png" alt="CV" className="size-6 active:border-b-2 border-amber-50 ..." />
-        <img onClick={HandleClick2} src="/assets/linkedin.png" alt="LINKEDIN" className="size-6 active:border-b-2 border-amber-50 ..." />
-        <img onClick={HandleClick3} src="/assets/instagram.png" alt="INSTAGRAM" className="size-6 active:border-b-2 border-amber-50 ..." />
-        <img onClick={HandleClick4} src="/assets/github.png" alt="GITHUB" className="size-6 active:border-b-2 border-amber-50 ..." />
-        <img onClick={HandleClick5} src="/assets/gmail.png" alt="EMAIL" className="size-6 active:border-b-2 border-amber-50 ..." />
+      
+      
+      <div className="flex flex-row gap-4 justify-center ml-5 mt-3 ">
+        <img onClick={HandleClick1} src="/assets/cv.png" alt="CV" className="transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
+        <img onClick={HandleClick2} src="/assets/linkedin.png" alt="LINKEDIN" className="hover: transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
+        <img onClick={HandleClick3} src="/assets/instagram.png" alt="INSTAGRAM" className="hover: transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
+        <img onClick={HandleClick4} src="/assets/github.png" alt="GITHUB" className="hover: transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
+        <img onClick={HandleClick5} src="/assets/gmail.png" alt="EMAIL" className="hover: transform delay-0 duration-200 ease-in-out size-8 lg:size-12 md:size-10 active:border-b-2 border-amber-50 hover:cursor-pointer hover:scale-150 ..." />
 
       </div>
     </>
